@@ -14,15 +14,15 @@
 
 ## Documentation
 - [x] Create README
-- [ ] Finish README
-- [ ] Create architecture.md
-- [ ] Create decisions.md
+- [x] Finish README
+- [x] Create architecture.md
+- [x] Create decisions.md
 - [x] Create roadmap.md
 - [x] Create dev-log.md
 
 ## Finalize Week
-- [ ] Review documentation
-- [ ] Commit final changes
-- [ ] Push branch
-- [ ] Open Pull Request
-- [ ] Merge Pull Request
+- [x] Review documentation
+- [x] Commit final changes
+- [x] Push branch
+- [x] Open Pull Request
+- [x] Merge Pull Request
