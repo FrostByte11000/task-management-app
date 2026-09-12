@@ -14,9 +14,9 @@
 
 ## Documentation
 - [x] Create README
-- [ ] Finish README
-- [ ] Create architecture.md
-- [ ] Create decisions.md
+- [x] Finish README
+- [x] Create architecture.md
+- [x] Create decisions.md
 - [x] Create roadmap.md
 - [x] Create dev-log.md
 
