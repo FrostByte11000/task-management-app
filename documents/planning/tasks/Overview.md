@@ -1,281 +1,251 @@
-12-Week Task Management App Roadmap
-Your weekly rhythm
+# Task Management App — Project Phases
 
-Saturday — Build
+## Phase 1 — Planning & Project Foundation
 
-10 min: Review last week's work
-65 min: Main development
-15 min: Commit + update checklist
+**Goal:** Establish the project structure, requirements, development workflow, and technical plan.
 
-Sunday — Finish
+### Focus
 
-10 min: Review
-65 min: Development/testing
-15 min: Dev log + commit/push
+* Define project goals
+* Identify MVP features
+* Establish Git/GitHub workflow
+* Create project documentation
+* Plan application architecture
+* Make initial technology decisions
 
-That gives you one small, finished milestone every weekend.
+### Deliverable
 
-Phase 1 — Planning & Foundation
-Week 1 — Finish Planning
-
-Goal: Finish the planning you've already started.
-
-Saturday
- Finish README
- Finalize tech stack
- Finish architecture.md
- Finish decisions.md
-Sunday
- Review roadmap
- Make sure task checklists are organized
- Update dev-log.md
- Commit planning work
- Merge PR into main
-
-Deliverable: A clean, professional GitHub repository ready for development.
-
-You are basically here now.
-
-Phase 2 — Application Foundation
-Week 2 — Set Up the Application
+A fully organized project with a clear development plan and technical design.
 
-Goal: Get an actual application running.
+---
 
-Saturday
- Create frontend
- Initialize React + TypeScript
- Run the frontend locally
- Make first frontend commit
-Sunday
- Create backend
- Initialize Node + Express
- Create basic server
- Create /api/status
- Verify server works
+## Phase 2 — Application Foundation
 
-Deliverable:
+**Goal:** Set up the basic frontend and backend applications.
 
-React Frontend
-      |
-      |
-Express Backend
+### Focus
 
-Both run locally.
+* Set up React and TypeScript
+* Set up Vite
+* Set up Node.js and Express
+* Create the initial backend server
+* Create a basic API endpoint
+* Verify that the frontend and backend run locally
 
-Phase 3 — Build the Interface
-Week 3 — Application Layout
+### Deliverable
 
-Goal: Create the basic visual structure.
+A working frontend and backend development environment.
 
-Saturday
- Create navigation
- Create sidebar
- Create main content area
- Set up basic styling
-Sunday
- Create Dashboard page
- Create Tasks page
- Make layout responsive
- Clean up components
+---
 
-Deliverable:
+## Phase 3 — Frontend & Application Layout
 
-A recognizable task-management application, even though the data isn't real yet.
+**Goal:** Build the basic user interface and application structure.
 
-Week 4 — Task UI
+### Focus
 
-Goal: Build the components you'll eventually connect to the backend.
+* Create navigation
+* Create sidebar
+* Create dashboard
+* Create task page
+* Create reusable components
+* Add basic styling
+* Make the layout responsive
 
-Saturday
- Create TaskCard
- Create TaskList
- Create TaskForm
- Create task data structure
-Sunday
- Display sample tasks
- Add task form
- Add complete checkbox
- Add edit/delete buttons
- Improve styling
+### Deliverable
 
-Deliverable:
+A recognizable task-management interface.
 
-You can interact with fake tasks in the UI.
+---
 
-Phase 4 — Make the MVP Work
-Week 5 — Task Creation & Completion
+## Phase 4 — Task Management
 
-Goal: Start making the frontend functional.
+**Goal:** Implement the core task-management functionality.
 
-Saturday
- Implement creating a task
- Add task to task list
- Handle empty task input
- Test task creation
-Sunday
- Implement completing tasks
- Add completed styling
- Implement undo completion
- Test edge cases
+### Focus
 
-Deliverable:
+* Create tasks
+* View tasks
+* Edit tasks
+* Delete tasks
+* Mark tasks as complete
+* Mark tasks as incomplete
+* Validate task input
+* Handle empty task lists
 
-You can create and complete tasks.
+### Deliverable
 
-Week 6 — Edit & Delete
-Saturday
- Implement editing
- Add edit form/state
- Save edited task
- Test editing
-Sunday
- Implement deletion
- Add confirmation
- Handle empty task list
- Refactor task code
+A functional task-management system using temporary/local data.
 
-Deliverable:
+---
 
-You now have basic CRUD:
+## Phase 5 — Backend API
 
-Create → Read → Update → Delete
+**Goal:** Connect the frontend to a real backend API.
 
-This is an important milestone for your resume project.
+### Focus
 
-Phase 5 — Backend + Database
-Week 7 — Task API
+* Create task API routes
+* Implement GET requests
+* Implement POST requests
+* Implement PUT requests
+* Implement DELETE requests
+* Add request validation
+* Add error handling
+* Test API endpoints
 
-Goal: Move task operations to your backend.
+### Deliverable
 
-Saturday
+A functional REST API for task management.
 
-Create:
+---
 
-GET /api/tasks
-POST /api/tasks
-Sunday
+## Phase 6 — Database Integration
 
-Create:
+**Goal:** Add persistent data storage.
 
-PUT /api/tasks/:id
-DELETE /api/tasks/:id
+### Focus
 
-Then:
+* Set up PostgreSQL
+* Set up Prisma
+* Create database schema
+* Create User model
+* Create Task model
+* Create database migrations
+* Connect API to database
+* Test database CRUD operations
 
- Test API
- Handle errors
- Document endpoints
+### Deliverable
 
-Deliverable:
+Tasks are stored persistently in the database.
 
-Your application now has a real REST API.
+---
 
-Week 8 — Database
+## Phase 7 — Authentication & User Accounts
 
-Goal: Make tasks persistent.
+**Goal:** Allow users to securely create accounts and manage their own tasks.
 
-Saturday
- Set up PostgreSQL
- Set up Prisma
- Create Task model
- Run migration
-Sunday
- Connect API to database
- Save tasks
- Retrieve tasks
- Update/delete database tasks
+### Focus
 
-Deliverable:
+* Create registration
+* Create login
+* Hash passwords
+* Implement authentication
+* Implement logout
+* Protect API routes
+* Associate tasks with users
+* Prevent users from accessing other users' tasks
 
-Close your browser, reopen the app, and your tasks are still there.
+### Deliverable
 
-That's a major milestone.
+A multi-user task management application.
 
-Phase 6 — Users
-Week 9 — Authentication
+---
 
-Goal: Turn it from "a task app" into a real multi-user application.
+## Phase 8 — Productivity Features & UI Polish
 
-Saturday
- Create User model
- Create signup endpoint
- Hash passwords
- Test registration
-Sunday
- Create login endpoint
- Implement authentication
- Add logout
- Test authentication
+**Goal:** Improve the application's usefulness, usability, and appearance.
 
-Deliverable:
+### Focus
 
-Users can create accounts and log in.
+Select a small number of additional features:
 
-Week 10 — User-Specific Tasks
-Saturday
- Associate tasks with users
- Protect task endpoints
- Only return current user's tasks
-Sunday
- Test multiple users
- Test unauthorized requests
- Fix authentication bugs
- Update documentation
+* Task priorities
+* Due dates
+* Search
+* Filtering
+* Sorting
+* Task categories
+* Tags
 
-Deliverable:
+### UI Improvements
 
-User A → User A's tasks
+* Improve visual consistency
+* Improve responsive design
+* Improve form validation
+* Improve loading states
+* Improve error messages
+* Improve accessibility
 
-User B → User B's tasks
-Phase 7 — Polish
-Week 11 — Productivity Features + UI Polish
+### Deliverable
 
-Don't go crazy here. Pick 2–3 features.
+A polished productivity application with additional functionality.
 
-I'd recommend:
+---
 
- Due dates
- Priority
- Search/filter
-Saturday
+## Phase 9 — Testing & Quality
 
-Implement:
+**Goal:** Make the application reliable and maintainable.
 
- Priority
- Due dates
-Sunday
+### Focus
 
-Implement:
+* Test core functionality
+* Test API endpoints
+* Test authentication
+* Test task permissions
+* Test edge cases
+* Fix bugs
+* Refactor duplicated code
+* Review project structure
+* Update documentation
 
- Search
- Filtering
- UI cleanup
+### Deliverable
 
-Deliverable:
+A stable application with tested core functionality.
 
-The app feels like an actual productivity tool rather than a CRUD demonstration.
+---
 
-Phase 8 — Resume Ready
-Week 12 — Testing, Deployment & Portfolio
+## Phase 10 — Deployment & Portfolio
 
-This is an important week. Don't spend the entire project building features and then rush deployment.
+**Goal:** Make the project publicly accessible and resume-ready.
 
-Saturday — Testing + Deployment
- Test major functionality
- Fix major bugs
- Deploy frontend
- Deploy backend
- Connect production database
- Verify production app
-Sunday — Portfolio
- Improve README
- Add screenshots
- Add live demo link
- Add architecture diagram
- Document technologies
- Update dev log
- Write resume bullet points
+### Focus
 
-Deliverable:
+* Deploy the frontend
+* Deploy the backend
+* Configure production database
+* Test the deployed application
+* Add screenshots
+* Update README
+* Add live demo
+* Add architecture diagram
+* Document technologies used
+* Write resume project description
 
-A live, documented project you can put on your resume.
+### Deliverable
+
+A live, documented, portfolio-ready project.
+
+---
+
+# Phase Progress
+
+| Phase                                | Status      |
+| ------------------------------------ | ----------- |
+| 1. Planning & Project Foundation     | In Progress |
+| 2. Application Foundation            | Not Started |
+| 3. Frontend & Application Layout     | Not Started |
+| 4. Task Management                   | Not Started |
+| 5. Backend API                       | Not Started |
+| 6. Database Integration              | Not Started |
+| 7. Authentication & User Accounts    | Not Started |
+| 8. Productivity Features & UI Polish | Not Started |
+| 9. Testing & Quality                 | Not Started |
+| 10. Deployment & Portfolio           | Not Started |
+
+---
+
+## Project Completion
+
+The project will be considered complete when:
+
+* [ ] Core task management functionality works
+* [ ] Users can create and authenticate accounts
+* [ ] Tasks are persisted in a database
+* [ ] User data is properly isolated
+* [ ] Core functionality has been tested
+* [ ] Application is deployed
+* [ ] README is complete
+* [ ] Documentation is up to date
+* [ ] Project includes screenshots
+* [ ] Project is ready to showcase in a portfolio or resume
