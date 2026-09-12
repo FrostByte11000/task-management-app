@@ -10,20 +10,20 @@ Set up the basic frontend and backend applications so the Task Management App ha
 
 ### Repository
 
-* [ ] Make sure `main` is up to date
-* [ ] Create `feature/application-setup`
-* [ ] Push the branch to GitHub
+* [x] Make sure `main` is up to date
+* [x] Create `feature/application-setup`
+* [x] Push the branch to GitHub
 
 ### Frontend
 
 * [ ] Create the frontend application
-* [ ] Initialize React
-* [ ] Configure TypeScript
-* [ ] Configure Vite
-* [ ] Install required dependencies
+* [x] Initialize React
+* [x] Configure TypeScript
+* [x] Configure Vite
+* [x] Install required dependencies
 * [ ] Start the frontend development server
-* [ ] Open the application in the browser
-* [ ] Verify the application runs successfully
+* [x] Open the application in the browser
+* [x] Verify the application runs successfully
 * [ ] Remove unnecessary starter code
 * [ ] Create initial frontend folder structure
 
