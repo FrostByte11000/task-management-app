@@ -16,16 +16,16 @@ Set up the basic frontend and backend applications so the Task Management App ha
 
 ### Frontend
 
-* [ ] Create the frontend application
+* [x] Create the frontend application
 * [x] Initialize React
 * [x] Configure TypeScript
 * [x] Configure Vite
 * [x] Install required dependencies
-* [ ] Start the frontend development server
+* [x] Start the frontend development server
 * [x] Open the application in the browser
 * [x] Verify the application runs successfully
-* [ ] Remove unnecessary starter code
-* [ ] Create initial frontend folder structure
+* [x] Remove unnecessary starter code
+* [x] Create initial frontend folder structure
 
 ### Documentation
 

@@ -46,6 +46,19 @@ TypeScript
 Vite
 Tailwind CSS
 
+### Frontend Structure
+
+The initial frontend is organized into:
+
+```text
+frontend/
+└── src/
+    ├── components/
+    ├── pages/
+    ├── App.tsx
+    ├── index.css
+    └── main.tsx
+
 ## Backend
 Backend
 
@@ -58,11 +71,16 @@ Performing task operations
 Communicating with the database
 Handling errors
 
+Current technologies:
+
+- React
+- TypeScript
+- Vite
+- ESLint
+
 Planned technologies:
 
-Node.js
-Express
-TypeScript
+- Tailwind CSS
 
 ## Database
 Database
