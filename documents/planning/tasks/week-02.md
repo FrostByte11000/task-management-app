@@ -10,33 +10,33 @@ Set up the basic frontend and backend applications so the Task Management App ha
 
 ### Repository
 
-* [ ] Make sure `main` is up to date
-* [ ] Create `feature/application-setup`
-* [ ] Push the branch to GitHub
+* [x] Make sure `main` is up to date
+* [x] Create `feature/application-setup`
+* [x] Push the branch to GitHub
 
 ### Frontend
 
-* [ ] Create the frontend application
-* [ ] Initialize React
-* [ ] Configure TypeScript
-* [ ] Configure Vite
-* [ ] Install required dependencies
-* [ ] Start the frontend development server
-* [ ] Open the application in the browser
-* [ ] Verify the application runs successfully
-* [ ] Remove unnecessary starter code
-* [ ] Create initial frontend folder structure
+* [x] Create the frontend application
+* [x] Initialize React
+* [x] Configure TypeScript
+* [x] Configure Vite
+* [x] Install required dependencies
+* [x] Start the frontend development server
+* [x] Open the application in the browser
+* [x] Verify the application runs successfully
+* [x] Remove unnecessary starter code
+* [x] Create initial frontend folder structure
 
 ### Documentation
 
-* [ ] Record frontend setup in `dev-log.md`
-* [ ] Update `architecture.md` if necessary
+* [x] Record frontend setup in `dev-log.md`
+* [x] Update `architecture.md` if necessary
 
 ### Commit
 
-* [ ] Review changes
-* [ ] Create a descriptive commit
-* [ ] Push changes to GitHub
+* [x] Review changes
+* [x] Create a descriptive commit
+* [x] Push changes to GitHub
 
 ---
 
@@ -44,22 +44,22 @@ Set up the basic frontend and backend applications so the Task Management App ha
 
 ### Backend
 
-* [ ] Create the backend directory
-* [ ] Initialize the Node.js project
-* [ ] Configure TypeScript
-* [ ] Install Express
-* [ ] Create the Express server
-* [ ] Configure the server port
-* [ ] Start the backend server
-* [ ] Verify the server runs locally
-* [ ] Create initial backend folder structure
+* [x] Create the backend directory
+* [x] Initialize the Node.js project
+* [x] Configure TypeScript
+* [x] Install Express
+* [x] Create the Express server
+* [x] Configure the server port
+* [x] Start the backend server
+* [x] Verify the server runs locally
+* [x] Create initial backend folder structure
 
 ### API
 
-* [ ] Create `GET /api/status`
-* [ ] Return a JSON response
-* [ ] Test the endpoint
-* [ ] Verify the endpoint responds successfully
+* [x] Create `GET /api/status`
+* [x] Return a JSON response
+* [x] Test the endpoint
+* [x] Verify the endpoint responds successfully
 
 ### Documentation
 
