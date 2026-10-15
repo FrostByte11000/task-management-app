@@ -70,3 +70,9 @@ body {
 .app-header {
   border-bottom: 1px solid #ddd;
 }
+
+
+.main-area {
+  flex: 1;
+  min-width: 0;
+}
