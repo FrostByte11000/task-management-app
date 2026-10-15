@@ -107,3 +107,39 @@ The initial Vite project included demonstration code that was not needed for the
 * Create the initial backend server.
 * Create the `/api/status` endpoint.
 * Verify the backend runs locally.
+
+## October 15, 2026 — Week 3: Frontend Layout and Navigation
+
+### Work Completed
+
+* Created a reusable `Sidebar` component with TaskFlow branding and navigation links.
+* Built the main application layout with a sidebar, header, and content area.
+* Created separate `Dashboard` and `Tasks` page components.
+* Added dashboard statistic cards for total tasks and completed tasks.
+* Installed React Router and configured navigation between the Dashboard and My Tasks pages.
+* Added active-link styling and a redirect for unknown routes.
+* Implemented responsive CSS to adjust the layout for smaller screens.
+
+### Issues Encountered
+
+* The application initially displayed a blank page due to an invalid hook call involving `BrowserRouter`.
+* Cleared Vite's dependency cache and restarted the development server, resolving the rendering issue.
+
+### Files Created or Modified
+
+* `frontend/src/components/Sidebar.tsx`
+* `frontend/src/pages/Dashboard.tsx`
+* `frontend/src/pages/Tasks.tsx`
+* `frontend/src/App.tsx`
+* `frontend/src/main.tsx`
+* `frontend/src/index.css`
+* `frontend/package.json`
+* `frontend/package-lock.json`
+* `docs/tasks/week-03.md`
+
+### Next Steps
+
+* Finish testing navigation and responsive behavior.
+* Review and clean up unused starter code.
+* Complete Week 3 documentation and prepare a pull request.
+* Begin Week 4 by developing reusable task components and sample task data.
