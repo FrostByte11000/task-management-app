@@ -123,3 +123,38 @@ body {
   background-color: #3b4556;
   color: white;
 }
+
+/*Responsize Layout*/
+
+@media (max-width: 700px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .sidebar h2 {
+    margin-bottom: 16px;
+  }
+
+  .sidebar nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .app-content {
+    padding: 20px;
+  }
+
+  .dashboard-stats {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .app-header {
+    padding: 16px 20px;
+  }
+}
