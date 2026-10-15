@@ -6,6 +6,7 @@ import viteLogo from './assets/vite.svg'
 
 
 import Sidebar from './components/Sidebar'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   return (
@@ -17,10 +18,7 @@ function App() {
           <h1>TaskFlow</h1>
         </header>
 
-        <main className="app-content">
-          <h2>Dashboard</h2>
-          <p>Welcome to your task manager.</p>
-        </main>
+        <Dashboard />
       </div>
     </div>
   )
