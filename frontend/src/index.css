@@ -1,4 +1,160 @@
+/*App Styling*/
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #222;
+}
+
+.app-header {
+  background-color: #ffffff;
+  padding: 20px 32px;
+  border-bottom: 1px solid #ddd;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.app-content {
+  padding: 32px;
+}
+
+.app-content h2 {
+  margin-top: 0;
+}
+
+/*Side bar styling*/
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background-color: #242b38;
+  color: white;
+  padding: 24px 16px;
+}
+
+.sidebar h2 {
+  margin: 0 0 32px;
+  font-size: 22px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.sidebar a:hover {
+  background-color: #3b4556;
+}
+
+.app-header {
+  border-bottom: 1px solid #ddd;
+}
+
+
+.main-area {
+  flex: 1;
+  min-width: 0;
+}
+
+/*Dashboard Stying*/
+
+
+.dashboard-stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.stat-card {
+  flex: 1;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.stat-card h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.stat-card p {
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Tasks Styling */
+
+.tasks-placeholder {
+  margin-top: 24px;
+  padding: 32px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  color: #666;
+}
+
+
+.sidebar a.active {
+  background-color: #3b4556;
+  color: white;
+}
+
+/*Responsize Layout*/
+
+@media (max-width: 700px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .sidebar h2 {
+    margin-bottom: 16px;
+  }
+
+  .sidebar nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .app-content {
+    padding: 20px;
+  }
+
+  .dashboard-stats {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .app-header {
+    padding: 16px 20px;
+  }
 }

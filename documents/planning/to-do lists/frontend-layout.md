@@ -14,14 +14,14 @@ Build the basic user interface structure.
 
 ### Pages
 
-- [ ] Create dashboard page
-- [ ] Create task page
+- [x] Create dashboard page
+- [x] Create task page
 - [ ] Create settings page
 
 ### Components
 
 - [ ] Create Navbar component
-- [ ] Create Sidebar component
+- [x] Create Sidebar component
 - [ ] Create TaskList component
 - [ ] Create TaskCard component
 - [ ] Create Button component
@@ -30,7 +30,7 @@ Build the basic user interface structure.
 ### Styling
 
 - [ ] Create global styles
-- [ ] Add responsive design
+- [x] Add responsive design
 - [ ] Improve spacing
 - [ ] Improve typography
 - [ ] Add icons
